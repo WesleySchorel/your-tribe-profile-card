@@ -12,7 +12,7 @@ body {
   display:flex;
   justify-content:center;
   align-items:center;
-  color:#10214e;
+  background: linear-gradient(to right, #ffc490, #c57a09c5);
 }
 
 article {
@@ -23,8 +23,8 @@ article {
   flex-direction:column;
   align-items:center;
   justify-content:flex-end;
-  background: rgb(0,239,255);
-  background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
+  background: rgb(173, 234, 187);
+  background: linear-gradient(0deg, rgba(63, 165, 0, 0.652) 40%, #a5ea9f 100%);
   box-shadow:0 0 20px 20px rgba(0,0,0,.1);
   border-radius:1rem;
   position: relative;
@@ -41,8 +41,8 @@ header {
 }
 
 h1 {
-  margin:2rem 0 1rem;
-  color: rgba(0,239,255,1);
+  margin:2rem 10 1rem;
+  color: rgb(0, 0, 0);
 }
 
 button {
@@ -53,21 +53,21 @@ button {
   width:2.5rem;
   height:2.5rem;
   transform: scale(.8);
-  background: rgba(0,239,255,1);
+  background: linear-gradient(to right, #ffb97c, #de8c11c5);
   border-radius:50%;
   padding:.25rem;
   transition:.25s;
 }
 button:focus {
   outline:none;
-  background:#202592;
+  background: linear-gradient(to right, #ffb97c, #de8c11c5);
 }
 button:focus svg {
-  stroke: rgba(0,239,255,1);
+  stroke: rgb(255, 255, 255);
 }
 
 svg {
-  stroke: #4e54c8;
+  stroke: #ffffff;
   position: absolute;
   top:calc(1.25rem - 12px);
   left:calc(1.25rem - 12px);
@@ -164,4 +164,26 @@ body.expand dd {
 
 body.expand img {
   width:15em;
+}
+
+
+
+
+.wesley {
+  text-shadow: 0 0 25px red;
+}
+
+#wesley{
+  display: inline-block;
+  animation: flipX 4s ease-in-out alternate 1s infinite;
+}
+@keyframes flipX {
+  100% {
+    transform: rotateX(1440deg);
+  }
+}
+@keyframes flipY {
+  100% {
+    transform: rotateY(360deg);
+  }
 }
