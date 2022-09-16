@@ -241,7 +241,6 @@ article>p {
   border-radius: 5px;
 }
 
-/* Darker background on mouse-over */
 .btn:hover {
   background-color: #dc932b;
 }
@@ -261,12 +260,3 @@ article>p {
   padding: 0;
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
